@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN" "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+    <jdbc-resource enabled="true" jndi-name="jdbc/hotel_booking_pool" object-type="user" pool-name="mysql_hotel_booking_pool">
+        <description>Global data source for Hotel Booking System</description>
+    </jdbc-resource>
+
+    <jdbc-connection-pool 
+        name="mysql_hotel_booking_pool" 
+        res-type="javax.sql.DataSource"
+        datasource-classname="com.mysql.cj.jdbc.MysqlDataSource" 
+        ping="true" 
+        pooling="true">
+        
+        <property name="url" value="jdbc:mysql://localhost:3306/hotel_booking_db?user=root&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+    </jdbc-connection-pool>
+</resources>
