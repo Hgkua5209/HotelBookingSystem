@@ -1,14 +1,25 @@
-# NetBeans specific caches and build outputs
+# ==========================================
+# NetBeans Specific Caches & Build Outputs
+# ==========================================
 **/nbproject/private/
 **/nbbuild/
-**/dist/
 **/build/
+**/dist/
 .nb-gradle/
+build/gfv510ee8.dpf
 
-# Compiled Java files
+# Specific project build paths (Safe to ignore)
+**/HotelBookingSystem-ejb/build/classes/META-INF/persistence.xml
+
+# ==========================================
+# Compiled Java Binaries & Generated Sources
+# ==========================================
 *.class
+**/build/generated-sources/
 
-# Package Files
+# ==========================================
+# Package / Deployment Files
+# ==========================================
 *.jar
 *.war
 *.nar
@@ -17,11 +28,9 @@
 *.tar.gz
 *.rar
 
-# Log files
+# ==========================================
+# Log Files & OS Specific Garbage
+# ==========================================
 *.log
-
-# OS specific files
 .DS_Store
 Thumbs.db
-
-**/HotelBookingSystem-ejb/build/classes/META-INF/persistence.xml
