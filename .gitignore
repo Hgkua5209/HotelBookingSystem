@@ -9,7 +9,7 @@
 build/gfv510ee8.dpf
 
 # Specific project build paths (Safe to ignore)
-**/HotelBookingSystem-ejb/build/classes/META-INF/persistence.xml
+**/HotelBookingSystem-ejb/src/conf/persistence.xml
 
 # ==========================================
 # Compiled Java Binaries & Generated Sources
