@@ -6,6 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 import javax.annotation.sql.DataSourceDefinition;
+import javax.persistence.PersistenceContext;
 
 @DataSourceDefinition(
     name = "java:app/jdbc/hotel_booking_pool", // This registers the JNDI name automatically
@@ -14,7 +15,6 @@ import javax.annotation.sql.DataSourceDefinition;
     user = "root",
     password = "" // Put your team's local MySQL password here if you use one
 )
-
 @Stateless
 public class UserBean {
 
